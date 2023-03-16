@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guessing game</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<h2>Let's play a guessing game!</h2>
+<form id="myForm">
+  <label for="userNr">Please think of a number between 1 to 20:</label>
+    <br>
+    <br>
+  <input type="text" id="userNr" name="userNr"><br>
+</form>
+<br>
+<button class="btn btn-primary" type="button" onclick="compare()">
+  Submit
+</button>
+<button class="btn btn-primary" type="button" onclick="reset()">
+    Try again
+</button>
+<br>
+<br>
+<output id="result" name="result"></output>
+<br>
+<br>
+<script src="GuessingGame.js"></script>
+</body>
+</html>

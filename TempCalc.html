@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature calculator</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/5b1dc82683.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<h2>Temperature calculator</h2>
+<form>
+  <label for="temp">Temperature:</label><br>
+  <input type="text" id="temp" name="temp"><br>
+</form>
+
+<button class="btn btn-primary" type="button" onclick="celToFah()">
+  Fahrenheit to Celsius
+</button>
+
+<button class="btn btn-primary" type="button" onclick="fahToCel()">
+  Celsius to Fahrenheit
+</button>
+<br>
+<br>
+<label for="result">Result:</label>
+<output id="result" name="result"></output>
+<br>
+<br>
+<script src="TempCalc.js"></script>
+</body>
+</html>

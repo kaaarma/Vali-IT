@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task7</title>
+</head>
+<body>
+<h1>Tasks 1-4</h1>
+<br>
+<h3>What date is it?</h3>
+<button class="btn btn-primary" type="button" onclick="getDate()">
+  Get date
+</button>
+<output id="date" name="date"></output>
+<br>
+<br>
+<br>
+<h3>How many days until Jaanipäev?</h3>
+<button class="btn btn-primary" type="button" onclick="timeUntilJaan()">
+  Days until Jaan
+</button>
+<output id="nrOfDays" name="nrOfDays"></output>
+<br>
+<br>
+<br>
+<h3>Difference with 17</h3>
+<form id="myForm">
+  <label for="userNr">Please enter a random number:</label>
+  <input type="text" id="userNr" name="userNr">
+</form>
+<button class="btn btn-primary" type="button" onclick="compare()">
+  Submit
+</button>
+<br>
+<br>
+<label>Result:</label>
+<h2 id="result"></h2>
+<br>
+<h3>Multiples of 5 or 7</h3>
+<form id="myForm2">
+  <label for="posNr">Please enter a positive number:</label>
+  <input type="number" min="0" id="posNr" name="posNr">
+</form>
+<button class="btn btn-primary" type="button" onclick="calculate()">
+  Submit
+</button>
+<br>
+<br>
+<label>Result:</label>
+<h2 id="answer"></h2>
+
+<script src="DateMultiple.js"></script>
+</body>
+</html>
