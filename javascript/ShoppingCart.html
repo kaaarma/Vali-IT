@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2 mb-4">
+            <div class="card" id="cushion1">
+                <img src="images/cushion1.jpg" class="card-img-top" alt="Cushion1">
+                <div class="card-body">
+                    <h3 class="card-title">Cushion Velvet</h3>
+                    <p class="price">35.99</p>
+                    <p><button class="my-button" type="button"  onclick="addItem()">Add to Cart</button></p>
+                </div>
+            </div>
+        </div>
+      <div class="col-lg-2 mb-4">
+            <div class="card" id="cushion2">
+                <img src="images/cushion2.jpg" class="card-img-top" alt="Cushion2">
+                    <div class="card-body">
+                        <h3 class="card-title">Cushion Grey</h3>
+                        <p class="price">12.99</p>
+                        <button class="my-button" type="button"  onclick="addItem()">
+                            Add to cart
+                        </button>
+                    </div>
+            </div>
+        </div>
+        <div class="col-lg-2 mb-4">
+            <div class="card" id="cushion3">
+                <img src="images/cushion3.jpg" class="card-img-top" alt="Cushion3">
+                <div class="card-body">
+                    <h3 class="card-title">Cushion Blue</h3>
+                    <p class="price">26.99</p>
+                    <button class="my-button" type="button" onclick="addItem()">
+                        Add to cart
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 mb-4">
+            <div class="card" id="cushion4">
+                <img src="images/cushion4.jpg" class="card-img-top" alt="Cushion4">
+                <div class="card-body">
+                    <h3 class="card-title">Cushion Parrot</h3>
+                    <p class="price">23.99</p>
+                    <button class="my-button" type="button" onclick="addItem()">
+                        Add to cart
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 mb-4">
+            <div class="card" id="cushion5">
+                <img src="images/cushion5.jpg" class="card-img-top" alt="Cushion5">
+                <div class="card-body">
+                    <h3 class="card-title">Cushion Flower</h3>
+                    <p class="price">31.99</p>
+                    <button class="my-button" type="button" onclick="addItem()">
+                        Add to cart
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 mb-4">
+            <div class="card" id="cushion6">
+                <img src="images/cushion6.jpeg" class="card-img-top" alt="Cushion6">
+                <div class="card-body">
+                    <h3 class="card-title">Cushion Dots</h3>
+                    <p class="price">26.99</p>
+                    <button class="my-button" type="button" onclick="addItem()">
+                        Add to cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<table id="cart" class="grid-table">
+    <thead>
+    <tr>
+        <td>Product</td>
+        <td>Price</td>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="2">Total:</td>
+        <td id="total">0.00</td>
+    </tr>
+    </tfoot>
+</table>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+
+<script src="ShoppingCart.js"></script>
+</html>
