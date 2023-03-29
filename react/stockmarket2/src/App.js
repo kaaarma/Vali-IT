@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Chart from "chart.js/auto";
+import { CategoryScale } from "chart.js";
 import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
@@ -9,7 +11,7 @@ import { Line } from "react-chartjs-2";
 
 
 
-
+Chart.register(CategoryScale);
 
 const stockUrls = [
   {value: "AAPL", label: "Apple Inc" },
